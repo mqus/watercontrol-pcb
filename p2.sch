@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ESP8266
-LIBS:myschematics
+EESchema Schematic File Version 4
 LIBS:p2-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BARREL_JACK J1
+L p2-rescue:BARREL_JACK J1
 U 1 1 58F61418
 P 1000 6950
 F 0 "J1" H 1000 7145 50  0000 C CNN
@@ -57,7 +26,7 @@ F 3 "" H 1000 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2
+L p2-rescue:D D2
 U 1 1 58F61848
 P 9150 4950
 F 0 "D2" H 9150 5050 50  0000 C CNN
@@ -68,7 +37,7 @@ F 3 "" H 9150 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D1
+L p2-rescue:D D1
 U 1 1 58F619E5
 P 9150 4200
 F 0 "D1" H 9150 4300 50  0000 C CNN
@@ -79,7 +48,7 @@ F 3 "" H 9150 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L jack-3.5mm-5pin J5
+L p2-rescue:jack-3.5mm-5pin J5
 U 1 1 58FCB74A
 P 9450 1200
 F 0 "J5" H 9450 1550 60  0000 C CNN
@@ -90,7 +59,7 @@ F 3 "http://datasheet.octopart.com/SJ1-3523N-CUI-datasheet-65973000.pdf" H 8600 
 	1    0    0    -1  
 $EndComp
 $Comp
-L jack-3.5mm-5pin J6
+L p2-rescue:jack-3.5mm-5pin J6
 U 1 1 58FCC088
 P 9450 1900
 F 0 "J6" H 9290 1630 60  0000 C CNN
@@ -101,7 +70,7 @@ F 3 "http://datasheet.octopart.com/SJ1-3523N-CUI-datasheet-65973000.pdf" H 9130 
 	1    0    0    -1  
 $EndComp
 $Comp
-L jack-3.5mm-5pin J7
+L p2-rescue:jack-3.5mm-5pin J7
 U 1 1 58FCC0ED
 P 9800 4250
 F 0 "J7" H 9640 3980 60  0000 C CNN
@@ -112,7 +81,7 @@ F 3 "http://datasheet.octopart.com/SJ1-3523N-CUI-datasheet-65973000.pdf" H 9480 
 	1    0    0    -1  
 $EndComp
 $Comp
-L jack-3.5mm-5pin J8
+L p2-rescue:jack-3.5mm-5pin J8
 U 1 1 58FCC124
 P 9800 5000
 F 0 "J8" H 9640 4730 60  0000 C CNN
@@ -134,7 +103,7 @@ ctl3
 Text Label 7600 5350 0    60   ~ 0
 ctl4
 $Comp
-L GNDREF #PWR01
+L p2-rescue:GNDREF #PWR01
 U 1 1 58FCE5D7
 P 8600 6000
 F 0 "#PWR01" H 8600 5750 50  0001 C CNN
@@ -145,7 +114,7 @@ F 3 "" H 8600 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L p2-rescue:R R4
 U 1 1 58FCE6F3
 P 8150 4600
 F 0 "R4" V 8230 4600 50  0000 C CNN
@@ -156,7 +125,7 @@ F 3 "" H 8150 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R5
+L p2-rescue:R R5
 U 1 1 58FCE75E
 P 8150 5350
 F 0 "R5" V 8230 5350 50  0000 C CNN
@@ -173,7 +142,7 @@ NoConn ~ 9200 1400
 NoConn ~ 9200 1200
 NoConn ~ 9200 1100
 $Comp
-L GNDREF #PWR02
+L p2-rescue:GNDREF #PWR02
 U 1 1 58FCF0DE
 P 9050 2650
 F 0 "#PWR02" H 9050 2400 50  0001 C CNN
@@ -188,7 +157,7 @@ ctl1
 Text Label 8450 2000 0    60   ~ 0
 ctl2
 $Comp
-L R R3
+L p2-rescue:R R3
 U 1 1 58FCF9B3
 P 6150 7450
 F 0 "R3" V 6230 7450 50  0000 C CNN
@@ -199,7 +168,7 @@ F 3 "" H 6150 7450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GNDREF #PWR03
+L p2-rescue:GNDREF #PWR03
 U 1 1 58FCFA4D
 P 5700 2850
 F 0 "#PWR03" H 5700 2600 50  0001 C CNN
@@ -210,7 +179,7 @@ F 3 "" H 5700 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L p2-rescue:C C4
 U 1 1 58FCFEB0
 P 4550 1400
 F 0 "C4" H 4575 1500 50  0000 L CNN
@@ -223,7 +192,7 @@ $EndComp
 Text Label 3400 1650 0    60   ~ 0
 Vcc
 $Comp
-L GNDREF #PWR04
+L p2-rescue:GNDREF #PWR04
 U 1 1 58FCFF82
 P 3650 1250
 F 0 "#PWR04" H 3650 1000 50  0001 C CNN
@@ -250,7 +219,7 @@ GPIO0
 Text Label 2850 7150 0    60   ~ 0
 GND
 $Comp
-L GNDREF #PWR05
+L p2-rescue:GNDREF #PWR05
 U 1 1 58FD2360
 P 2850 7150
 F 0 "#PWR05" H 2850 6900 50  0001 C CNN
@@ -261,7 +230,7 @@ F 3 "" H 2850 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C2
+L p2-rescue:CP C2
 U 1 1 58FD1361
 P 2500 7000
 F 0 "C2" H 2525 7100 50  0000 L CNN
@@ -272,7 +241,7 @@ F 3 "" H 2500 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L p2-rescue:C C3
 U 1 1 58FD1608
 P 4150 1400
 F 0 "C3" H 4175 1500 50  0000 L CNN
@@ -300,7 +269,7 @@ GND
 Text Label 1900 5000 2    60   ~ 0
 GND
 $Comp
-L CONN_01X02 J4
+L p2-rescue:CONN_01X02 J4
 U 1 1 58FD0660
 P 1200 5050
 F 0 "J4" H 1200 5200 50  0000 C CNN
@@ -311,7 +280,7 @@ F 3 "" H 1200 5050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J2
+L p2-rescue:CONN_01X03 J2
 U 1 1 58FD04F7
 P 1200 1300
 F 0 "J2" H 1200 1500 50  0000 C CNN
@@ -322,7 +291,7 @@ F 3 "" H 1200 1300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 J3
+L p2-rescue:CONN_01X04 J3
 U 1 1 58FD0298
 P 1200 3250
 F 0 "J3" H 1200 3500 50  0000 C CNN
@@ -339,7 +308,7 @@ NoConn ~ 9550 4900
 NoConn ~ 9550 5000
 NoConn ~ 9550 5200
 $Comp
-L IRL540N Q1
+L p2-rescue:IRL540N Q1
 U 1 1 58FD3732
 P 8500 4550
 F 0 "Q1" H 8750 4625 50  0000 L CNN
@@ -350,7 +319,7 @@ F 3 "" H 8500 4550 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IRL540N Q2
+L p2-rescue:IRL540N Q2
 U 1 1 58FD3779
 P 8500 5300
 F 0 "Q2" H 8750 5375 50  0000 L CNN
@@ -375,7 +344,7 @@ Water Sensor Wiring (with Pullup-Resistor in the basic ESP wiring)
 Text Notes 7350 3450 0    60   ~ 0
 Pump Controls
 $Comp
-L LED LED2
+L p2-rescue:LED LED2
 U 1 1 5904F834
 P 4300 7500
 F 0 "LED2" H 4300 7600 50  0000 C CNN
@@ -386,7 +355,7 @@ F 3 "" H 4300 7500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED LED1
+L p2-rescue:LED LED1
 U 1 1 5904FA17
 P 4300 7150
 F 0 "LED1" H 4300 7250 50  0000 C CNN
@@ -397,7 +366,7 @@ F 3 "" H 4300 7150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDREF #PWR06
+L p2-rescue:GNDREF #PWR06
 U 1 1 5904FBC6
 P 4800 7350
 F 0 "#PWR06" H 4800 7100 50  0001 C CNN
@@ -408,7 +377,7 @@ F 3 "" H 4800 7350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R8
+L p2-rescue:R R8
 U 1 1 5904FDAC
 P 4000 7500
 F 0 "R8" V 4080 7500 50  0000 C BNN
@@ -419,7 +388,7 @@ F 3 "" H 4000 7500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R9
+L p2-rescue:R R9
 U 1 1 5904FE63
 P 4000 7150
 F 0 "R9" V 4080 7150 50  0000 C CNN
@@ -430,7 +399,7 @@ F 3 "" H 4000 7150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR07
+L p2-rescue:+3.3V #PWR07
 U 1 1 59050FF8
 P 6150 6700
 F 0 "#PWR07" H 6150 6550 50  0001 C CNN
@@ -441,7 +410,7 @@ F 3 "" H 6150 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR08
+L p2-rescue:+3.3V #PWR08
 U 1 1 59051972
 P 2650 6850
 F 0 "#PWR08" H 2650 6700 50  0001 C CNN
@@ -452,7 +421,7 @@ F 3 "" H 2650 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR09
+L p2-rescue:+3.3V #PWR09
 U 1 1 590519E1
 P 2650 6850
 F 0 "#PWR09" H 2650 6700 50  0001 C CNN
@@ -469,20 +438,20 @@ led2
 Text Notes 3250 6650 0    60   ~ 0
 2 signal LEDs
 Wire Wire Line
-	9150 4800 9550 4800
+	9150 4800 9300 4800
 Wire Wire Line
-	9150 4050 9550 4050
+	9150 4050 9300 4050
 Wire Wire Line
-	1300 6850 1700 6850
+	1300 6850 1550 6850
 Wire Wire Line
 	1300 7050 1300 7150
 Wire Wire Line
 	1550 6850 1550 6500
 Wire Wire Line
-	1550 6500 2850 6500
+	1550 6500 2650 6500
 Connection ~ 1550 6850
 Wire Wire Line
-	2300 6850 2850 6850
+	2300 6850 2500 6850
 Connection ~ 2500 6850
 Connection ~ 2500 7150
 Wire Wire Line
@@ -503,7 +472,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 1300 9200 1300
 Wire Wire Line
-	9050 1000 9050 2650
+	9050 1000 9050 1700
 Wire Wire Line
 	9050 1700 9200 1700
 Wire Wire Line
@@ -512,14 +481,14 @@ Connection ~ 9050 1700
 Connection ~ 9150 5100
 Connection ~ 9150 4350
 Wire Wire Line
-	9300 4050 9300 6100
+	9300 4050 9300 4800
 Connection ~ 9300 4800
 Connection ~ 9300 4050
 Wire Wire Line
-	3400 1650 4150 1650
+	3400 1650 3950 1650
 Connection ~ 4550 1650
 Wire Wire Line
-	3650 1250 4550 1250
+	3650 1250 4150 1250
 Wire Wire Line
 	3700 2150 4800 2150
 Wire Wire Line
@@ -544,18 +513,12 @@ Wire Wire Line
 	1900 5100 1400 5100
 Wire Wire Line
 	1900 5000 1400 5000
-Connection ~ 8600 6000
-Connection ~ 2850 7150
 Wire Wire Line
-	8600 4350 9550 4350
+	8600 4350 9150 4350
 Wire Wire Line
-	8600 5100 9550 5100
-Wire Notes Line
-	3150 500  3150 7800
+	8600 5100 9150 5100
 Wire Notes Line
 	500  6000 3150 6000
-Wire Notes Line
-	3150 6000 3150 6050
 Wire Notes Line
 	500  4300 3150 4300
 Wire Notes Line
@@ -570,7 +533,7 @@ Connection ~ 2000 7150
 Wire Wire Line
 	4450 7500 4600 7500
 Wire Wire Line
-	4600 7500 4600 7150
+	4600 7500 4600 7350
 Wire Wire Line
 	4600 7150 4450 7150
 Wire Wire Line
@@ -586,7 +549,7 @@ Wire Notes Line
 Wire Notes Line
 	3150 6500 7250 6500
 $Comp
-L Switch U3
+L p2-rescue:Switch U3
 U 1 1 59051246
 P 6300 7000
 F 0 "U3" H 6300 7000 60  0000 C CNN
@@ -601,7 +564,7 @@ led2
 Text Label 6600 1850 0    60   ~ 0
 led1
 $Comp
-L ESP-12 U2
+L p2-rescue:ESP-12 U2
 U 1 1 590CA322
 P 5700 1950
 F 0 "U2" H 5700 1850 50  0000 C CNN
@@ -622,7 +585,7 @@ pump1
 Text Label 8650 5100 0    60   ~ 0
 pump2
 $Comp
-L R-78E3.3-0.5 U1
+L p2-rescue:R-78E3.3-0.5 U1
 U 1 1 59126417
 P 2000 6850
 F 0 "U1" H 2100 6600 50  0000 C CNN
@@ -640,7 +603,7 @@ Wire Wire Line
 	5750 7300 6150 7300
 Connection ~ 6150 7300
 $Comp
-L GNDREF #PWR010
+L p2-rescue:GNDREF #PWR010
 U 1 1 59127D38
 P 6150 7600
 F 0 "#PWR010" H 6150 7350 50  0001 C CNN
@@ -653,10 +616,10 @@ $EndComp
 Text Notes 5450 6600 0    60   ~ 0
 wifi-switch
 Wire Wire Line
-	1300 7150 2850 7150
+	1300 7150 2000 7150
 NoConn ~ 4800 1750
 $Comp
-L R_Network04 RN1
+L p2-rescue:R_Network04 RN1
 U 1 1 5922FA0C
 P 4350 1750
 F 0 "RN1" V 4050 1750 50  0000 C CNN
@@ -679,21 +642,21 @@ Wire Wire Line
 Wire Wire Line
 	4800 1950 4700 1950
 Wire Wire Line
-	4700 1850 4700 2600
+	4700 1850 4700 1950
 Wire Wire Line
 	4700 1850 4550 1850
 Wire Wire Line
 	4600 2050 4800 2050
 Wire Wire Line
-	4600 1950 4600 2600
+	4600 1950 4600 2050
 Wire Wire Line
 	4600 1950 4550 1950
 Connection ~ 4700 1950
 Connection ~ 4600 2050
 Wire Wire Line
-	4150 1550 4150 1950
+	4150 1550 4150 1650
 $Comp
-L +12V #PWR011
+L p2-rescue:+12V #PWR011
 U 1 1 5923129E
 P 2650 6500
 F 0 "#PWR011" H 2650 6350 50  0001 C CNN
@@ -704,4 +667,42 @@ F 3 "" H 2650 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2650 6500
+Wire Wire Line
+	1550 6850 1700 6850
+Wire Wire Line
+	2500 6850 2650 6850
+Wire Wire Line
+	2500 7150 2850 7150
+Wire Wire Line
+	9050 1700 9050 2650
+Wire Wire Line
+	9150 5100 9550 5100
+Wire Wire Line
+	9150 4350 9550 4350
+Wire Wire Line
+	9300 4800 9550 4800
+Wire Wire Line
+	9300 4800 9300 6100
+Wire Wire Line
+	9300 4050 9550 4050
+Wire Wire Line
+	4150 1650 4150 1950
+Wire Wire Line
+	4150 1250 4550 1250
+Wire Wire Line
+	2000 7150 2500 7150
+Wire Wire Line
+	4600 7350 4600 7150
+Wire Wire Line
+	2650 6850 2850 6850
+Wire Wire Line
+	3950 1650 4150 1650
+Wire Wire Line
+	4700 1950 4700 2600
+Wire Wire Line
+	4600 2050 4600 2600
+Wire Wire Line
+	2650 6500 2850 6500
+Wire Notes Line
+	3150 500  3150 7800
 $EndSCHEMATC
